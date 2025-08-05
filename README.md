@@ -24,16 +24,6 @@ Built with **Angular** on the frontend and **Node.js** on the backend, it uses *
 
 ---
 
-## 📸 Screenshots *(optional)*
-
-> *(You can insert screenshots here later)*  
-> Example:
-> ```markdown
-> ![Recipe Page](./screenshots/recipe-page.png)
-> ```
-
----
-
 ## 🧑‍💻 Getting Started
 
 ```bash
