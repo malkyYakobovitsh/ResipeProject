@@ -1,0 +1,25 @@
+.sticky-animation {
+  position: fixed; 
+  bottom: 0; 
+  width: 100%;
+  background-color: black;
+  color: rgb(196, 57, 138);
+  text-align: center;
+  padding: 10px;
+  z-index: 1; 
+  overflow: hidden; 
+}
+
+.moving-text {
+  display: block ;
+  animation: move 20s linear infinite; 
+}
+
+@keyframes move {
+  0% {
+    transform: translateX(60%); 
+  }
+  100% {
+    transform: translateX(-60%);
+  }
+}

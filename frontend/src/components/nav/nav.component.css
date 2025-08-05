@@ -1,0 +1,49 @@
+
+p{
+    color: rgb(196, 57, 138);
+}
+.navbar {
+  padding: 1rem;
+}
+
+.nav-color {
+  color:rgb(176, 47, 120);
+  text-decoration: none;
+  margin: 0 15px;
+  transition: color 0.3s;
+}
+
+.nav-color:hover {
+  color:    white;
+
+}
+
+.btn-custom {
+  background-color: rgb(196, 57, 138);
+  color: rgb(12, 12, 12);
+  border: none;
+  border-radius: 5px;
+  padding: 8px 12px;
+  margin-left: 15px;
+  transition: background-color 0.3s;
+}
+
+.btn-custom:hover {
+  background-color: rgb(176, 47, 120);
+}
+
+.buttun1 {
+  background: none;
+  border: none;
+  color: white;
+  cursor: pointer;
+  margin-left: 10px;
+}
+
+.tooltip {
+  position: absolute;
+  background-color: white;
+  border: 1px solid #ccc;
+  padding: 10px;
+  z-index: 1000;
+}

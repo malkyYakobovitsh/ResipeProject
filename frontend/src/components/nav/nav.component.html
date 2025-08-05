@@ -1,0 +1,9 @@
+<nav class="navbar navbar-dark bg-dark sticky-top">
+ <a class="nav-color"  routerLink="home">home</a>
+ <a class="nav-color"  routerLink="logIn">log in</a>
+ <a class="nav-color"  routerLink="connect">connect</a>
+ <a *ngIf="authService.isLoggedIn()" class="nav-color" routerLink="addRecipy">addRecipy</a>
+  <p *ngIf="authService.isLoggedIn()">שלום {{ authService.giveName() }}   <button   class="buttun1" routerLink="favoriteRecipes">💗</button></p>
+  <button class="btn-custom"  *ngIf="authService.isLoggedIn()"   (click)="logOut()" >יציאה</button>
+</nav>
+

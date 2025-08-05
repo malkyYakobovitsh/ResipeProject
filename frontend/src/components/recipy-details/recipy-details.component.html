@@ -1,0 +1,38 @@
+
+<div *ngIf="recipe" class="container mt-5">
+  <button (click)="printRecipe()" class="btn3">🖨️</button>
+  <button (click)="downloadRecipe()" class="btn3">⬇️</button>
+  <h1 class="display-4 text-center">{{ recipe.name }}</h1>
+  <img [src]="recipe.image" alt="{{ recipe.name }}" class="img-fluid rounded mx-auto d-block mb-4 small-image" />
+  <p class="lead text-center">רמה: {{ recipe.level }}</p>
+  <p class="text-center">משך: {{ recipe.duration }} שעות</p>
+  <h3 class="mt-4" style="text-align: right">:רכיבים</h3>
+  <ul class="list-group mb-4" style="text-align: right">
+    <li class="list-group-item">
+      <table>
+        <thead>
+          <th>כמות</th>
+          <th>שם רכיב</th>
+        </thead>
+        <tbody *ngFor="let ingredient of recipe.ingredients">
+          <td>
+            {{ ingredient.ingredientAmount }}
+          </td>
+          <td>
+            {{ ingredient.ingredientName }}
+          </td>
+        </tbody>
+      </table>
+    </li>
+  </ul>
+  <button (click)="addToFavorites(recipe._id)" class="btn-custom1">הוסף למועדפים</button><button
+    (click)="deleteRecipy()" class="btn-custom">מחק מתכון</button>
+  <div class="text-center">
+    <a [routerLink]="['/home']" class="btn btn-secondary" style="background-color:  rgb(196, 57, 138);;">חזרה לעמוד
+      הבית</a>
+  </div>
+  <br>
+  <br>
+  <br>
+  <br>
+</div>
