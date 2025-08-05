@@ -1,15 +1,52 @@
-RecipeWebsite - Angular & Node.js
-RecipeWebsite is a full-stack web application designed to provide users with an intuitive platform to explore, create, and manage recipes. Built with Angular on the frontend and Node.js on the backend, the app leverages MongoDB for data storage and Bootstrap for a responsive, user-friendly interface.
+# 🍽️ RecipeWebsite – Fullstack App with Angular & Node.js
 
-Technologies Used
-Frontend: Angular
-Backend: Node.js with Express
-Database: MongoDB
-Styling: Bootstrap
-Features
+**RecipeWebsite** is a full-stack web application designed to provide users with an intuitive platform to explore, create, and manage recipes.  
+Built with **Angular** on the frontend and **Node.js** on the backend, it uses **MongoDB** for data storage and **Bootstrap** for a clean, responsive UI.
 
-Browse and search a wide variety of recipes
-Create new recipes and manage your own collection
-Save favorite recipes for quick access
-Edit or delete recipes exclusively by their creators or administrators
-Personal dashboard displaying all saved favorite recipes
+---
+
+## 🚀 Technologies Used
+
+- 🎯 **Frontend:** Angular  
+- ⚙️ **Backend:** Node.js with Express  
+- 🛢️ **Database:** MongoDB  
+- 🎨 **Styling:** Bootstrap
+
+---
+
+## ✨ Features
+
+- 🔍 **Browse & search** a wide variety of recipes  
+- 📝 **Create** and manage your own recipe collection  
+- ⭐ **Save favorites** for quick access later  
+- 🛠️ **Edit or delete** recipes – only by their creators or admins  
+- 📊 **Personal dashboard** showing all your saved favorite recipes
+
+---
+
+## 📸 Screenshots *(optional)*
+
+> *(You can insert screenshots here later)*  
+> Example:
+> ```markdown
+> ![Recipe Page](./screenshots/recipe-page.png)
+> ```
+
+---
+
+## 🧑‍💻 Getting Started
+
+```bash
+# Clone the repository
+git clone https://github.com/your-username/RecipeWebsite.git
+
+# Install frontend dependencies
+cd frontend
+npm install
+
+# Install backend dependencies
+cd ../backend
+npm install
+
+# Run frontend & backend (example setup)
+npm run start
